@@ -4,14 +4,13 @@ public class Lutadores {
 
     public static void main(String[] args) {
         Lutador lutador[] = new Lutador[5];
-
+        
+        /*Se quiser adicionar mais lutadores
+        lutador[valorIndice] = new Lutador ("NomeLutador", "Peso", "Vitorias", "Derrotas", "Empates");
+        */
         lutador[0] = new Lutador("Gabriel", 79, 3, 2, 1);
 
         lutador[1] = new Lutador("Jose aldo", 120, 0, 1, 7);
-        
-        lutador[2] = new Lutador("Maicon", 80, 3, 2, 1);
-
-        lutador[3] = new Lutador("Jose fino", 89, 0, 1, 7);
 
         lutador[0].apresentacao();
         lutador[0].status();
